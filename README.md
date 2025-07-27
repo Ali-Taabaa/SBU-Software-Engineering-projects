@@ -47,6 +47,8 @@ In Phase 2, we applied an **Agile (Scrum)** methodology to iteratively refine th
 - Managed sprints, backlogs, and task distribution via **Jira**
 - Assigned the Scrum Master role to a team member for coordination
 
+Tools Used: `Figma`, `Jira`
+
 📂 [See Phase 2 Details](./PHASE2/README.md)
 
 ---
