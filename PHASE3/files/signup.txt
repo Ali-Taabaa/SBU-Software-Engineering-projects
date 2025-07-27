@@ -1,0 +1,41 @@
+Start
+DISPLAY registration page
+USER enters information
+
+IF information is invalid THEN
+    SHOW “Invalid information”
+    RETURN to input form
+ELSE
+    CHECK if email exists in system
+
+    IF email exists THEN
+        SHOW “Email already registered”
+        RETURN to input form
+    ELSE
+        DISPLAY verification code entry page
+        GENERATE verification code
+        SEND code to user’s email
+
+        SET codeConfirmed TO FALSE
+        WHILE codeConfirmed IS FALSE DO
+            IF user requests new code THEN
+                GENERATE new verification code
+                SEND new code to user’s email
+            ENDIF
+
+            USER enters code
+
+            IF code is incorrect THEN
+                SHOW “Invalid code”
+            ELSE
+                SET codeConfirmed TO TRUE
+            ENDIF
+        ENDWHILE
+
+        DISPLAY user information form
+        SAVE user information
+        SHOW “Registration successful”
+    ENDIF
+ENDIF
+
+End

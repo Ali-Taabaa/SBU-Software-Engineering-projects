@@ -1,0 +1,65 @@
+Start
+Require teacher to be logged in
+Display the calendar view for the teacher
+
+If teacher clicks “Manage Time” then
+    Display the Manage Time page
+Else
+    Return / Exit
+
+Loop forever:
+    action ← teacher selects one of:
+              [“Back”, “Free Slot”, “Close Slot”, “Group Class”]
+
+    If action is “Back” then
+        Return / Exit loop
+
+    Else if action is “Free Slot” or “Close Slot” then
+        slots ← teacher selects one or more time slots
+        For each slot in slots do
+            If slot is not in the future then
+                Show error “Cannot select past time”
+                Continue to next slot
+            End If
+
+            If action is “Free Slot” then
+                Free that slot for the teacher
+            Else
+                Close that slot for the teacher
+            End If
+        End For
+        Show message “Operation completed on selected slots”
+
+    Else if action is “Group Class” then
+        groupInfo ← show form to enter group-class details
+        errors ← validate groupInfo
+        If errors is not empty then
+            Show each error message
+            Continue loop
+        End If
+
+        slots ← teacher selects one or more time slots
+        For each slot in slots do
+            If slot is not in the future then
+                Show error “Cannot select past time”
+                Continue to next slot
+            End If
+        End For
+
+        Create a group class with teacherId, slots, and groupInfo
+        Show message “Group class created successfully”
+
+    End If
+
+    If teacher clicks “Confirm” or “Save Changes” then
+        Break out of loop
+    End If
+End Loop
+
+success ← save all calendar changes for the teacher
+If success then
+    Show message “Changes saved successfully”
+Else
+    Show error “Failed to save changes; please try again”
+End If
+End
