@@ -14,7 +14,7 @@ The platform is designed to provide a unified environment for live online classe
   - In **Phase 3**, I conducted **A/B testing** to evaluate design alternatives and user preferences.
 
 - Sami Mehrabi  
-- Mohammad Javad Safian  
+- Mohammad Javad Safian(https://github.com/mjsafy)
 - Danial Hamidi  
 
 *Detailed roles of each member per phase are listed in the README files of each respective phase.*
