@@ -34,7 +34,7 @@ In this phase, we focused on defining the system scope and gathering key require
 
 Tools Used: `Visual Paradigm`
 
-📂 [See Phase 1 Details](./PHASE1/README.md)
+📂 [See Phase 1 Details](./PHASE1)
 
 ---
 
@@ -49,7 +49,7 @@ In Phase 2, we applied an **Agile (Scrum)** methodology to iteratively refine th
 
 Tools Used: `Figma`, `Jira`
 
-📂 [See Phase 2 Details](./PHASE2/README.md)
+📂 [See Phase 2 Details](./PHASE2)
 
 ---
 
@@ -62,7 +62,7 @@ This phase focused on validating the system's quality and verifying that it met 
 - Creating **pseudocode** and **control flow graphs** to ensure code-level clarity
 - Conducting an **A/B test** to compare design variations and evaluate user behavior
 
-📂 [See Phase 3 Details](./PHASE3/README.md)
+📂 [See Phase 3 Details](./PHASE3)
 
 ---
 
