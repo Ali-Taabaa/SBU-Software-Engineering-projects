@@ -13,7 +13,7 @@ The platform is designed to provide a unified environment for live online classe
   - In **Phase 2**, I contributed to the design and implementation of the interactive prototype using **Figma**.
   - In **Phase 3**, I conducted **A/B testing** to evaluate design alternatives and user preferences.
 
-- Sami Mehrabi  
+- [Sami Mehrabi](https://github.com/samimehrabi)
 - [Mohammad Javad Safian](https://github.com/mjsafy)
 - [Danial Hamidi](https://github.com/mdanialh)
 
