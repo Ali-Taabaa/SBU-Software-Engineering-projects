@@ -17,8 +17,6 @@ The platform is designed to provide a unified environment for live online classe
 - [Mohammad Javad Safian](https://github.com/mjsafy)
 - [Danial Hamidi](https://github.com/mdanialh)
 
-*Detailed roles of each member per phase are listed in the README files of each respective phase.*
-
 ---
 
 ## Project Structure and Phase Overview
