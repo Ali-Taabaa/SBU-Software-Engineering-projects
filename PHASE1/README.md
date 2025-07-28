@@ -9,8 +9,7 @@ This phase focused on defining the **core structure** of the system by identifyi
 - Domain Model and Class Diagram
 - Entity-Relationship Diagram (ERD)
 - Visual modeling using **Visual Paradigm**
-###  Contribution – Ali Tabatabaei
-
+  
 In this phase, I was responsible for **collecting and analyzing system requirements** and transforming them into structured **Use Case specifications**. Together with **Danial Hamidi**, we extracted and documented **27 detailed use cases**, each of which included:
 
 - Main Flow of Events  
